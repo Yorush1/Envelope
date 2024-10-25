@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>For you</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>Dear Ikaw.</strong>
+                        <p>
+                            Hi, lately masyado na akong kinikilig sa mga chats mo, yan tuloy lalo akong nafall sa'yo.
+                            At first dinedeny ko na may feelings ako para sa'yo, pero the more i get to know you, the more it gets clear na 
+                            i really like you, as clear as the sky. At first talaga ang gusto ko lang sa'yo is yung smile mo, but the more i fell in-love with you,
+                            the harder it was to find the reason on why i love you. Now ipasa mo 'to sa ......20 natao for good luck. HAHA miss ko na siya.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
